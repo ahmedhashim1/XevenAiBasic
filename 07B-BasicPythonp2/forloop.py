@@ -1,5 +1,8 @@
-fruits = ["apple"]
-for item in fruits:
-    print(item)
+passw = ""
 
-print(len(item))
+while passw != "secret":
+    passw = input("Enter password: ")
+    if passw == "secret":
+        print("Access granted")
+    else:
+        print("Invalid password")
